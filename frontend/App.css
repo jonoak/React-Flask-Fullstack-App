@@ -1,0 +1,35 @@
+/* App.css */
+
+.app {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.password-strength {
+    color: red;
+    font-size: 12px;
+}
+
+input[type="file"] {
+    padding: 5px;
+}
